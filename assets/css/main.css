@@ -814,7 +814,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/assets/img/bg/bg-observation.jpg');
+  background-image: url('/assets/img/bg/bg.jpg');
 }
 
 .hero img {
