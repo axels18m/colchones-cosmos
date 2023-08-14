@@ -808,12 +808,13 @@ section {
   --color-default-rgb: 255, 255, 255;
   --color-background: #000000;
   --color-background-rgb: 0, 0, 0;
-  width: 100%;
+  width: auto;
   min-height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("/assets/img/bg/bg-observation.jpg");
 }
 
 .hero img {
