@@ -885,6 +885,15 @@ section {
 }
 
 @media (max-width: 768px) {
+
+  .box {
+    font-size: 100px !important;
+  }
+
+  .box:not(.blur) {
+    font-size: 100px !important;
+  }
+
   .hero h2 {
     font-size: 32px;
   }
@@ -2928,6 +2937,7 @@ section {
     bottom: 0;
     width: auto;
     height: 100vh;
+    background-image: url("/assets/img/bg/bg-observation.jpg");
 }
 
 .container-cosmos {
@@ -2980,7 +2990,11 @@ section {
   .logo img {
       content: url('../img/logos/cosmos.png');
       padding-top: 10px;
-      width: 50%;
-      height: 50%;
+      width: 30%;
+      height: 30%;
+  }
+
+  .header .btn-getstarted {
+    font-size: 10px !important;
   }
 }
